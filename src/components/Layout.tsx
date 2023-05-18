@@ -17,7 +17,7 @@ export const Layout = () => {
             />
             <Box
                 component='div'
-                minHeight={'65vh'}
+                minHeight={{ sm: '100vh', lg: '65vh' }}
                 sx={{
                     backgroundColor: '#2e2e36',
                 }}
