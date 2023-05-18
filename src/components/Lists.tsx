@@ -7,7 +7,7 @@ import { color, fontFamily } from 'src/components/shared/global'
 import { EmployeeProps } from 'src/types/employee'
 
 type ListsProps = {
-  employee: any
+  employee: EmployeeProps
   fontValue: number | number[]
   handleListItem: (e: React.MouseEvent) => void
 }
